@@ -1,0 +1,41 @@
+ls: Lists the contents of a directory.
+cd <directory>: Changes the current directory to the specified one.
+pwd: Prints the current working directory.
+touch <file>: Creates an empty file or updates its timestamp.
+cat <file>: Displays the contents of a file.
+cp <source> <destination>: Copies files or directories.
+mv <source> <destination>: Moves or renames files or directories.
+rm <file>: Removes files.
+rm -r <directory>: Deletes a directory and its contents recursively.
+mkdir <directory>: Creates a new directory.
+rmdir <directory>: Removes an empty directory.
+find <path> -name <name>: Searches for files and directories.
+grep <pattern> <file>: Searches for a specific pattern in a file.
+chmod <permissions> <file>: Changes the file permissions.
+chown <user>:<group> <file>: Changes the ownership of a file.
+df -h: Displays disk space usage in human-readable format.
+du -h <path>: Shows the size of a directory or file.
+top: Displays real-time system resource usage.
+ps: Shows currently running processes.
+kill <pid>: Terminates a process using its process ID.
+wget <url>: Downloads files from the internet.
+curl <url>: Fetches content or interacts with servers via URLs.
+tar -cvf <archive.tar> <file>: Archives files into a .tar file.
+tar -xvf <archive.tar>: Extracts files from a .tar archive.
+zip <archive.zip> <file>: Compresses files into a .zip archive.
+unzip <archive.zip>: Extracts files from a .zip archive.
+head <file>: Displays the first few lines of a file.
+tail <file>: Shows the last few lines of a file.
+nano <file>: Opens a file in the Nano text editor.
+vim <file>: Opens a file in the Vim text editor.
+ssh <user>@<host>: Connects to a remote server using SSH.
+scp <source> <user>@<host>:<destination>: Copies files to/from a remote server.
+man <command>: Displays the manual page for a command.
+history: Lists previously executed commands.
+alias <name>='command': Creates a shortcut for a command.
+uname -a: Displays system information.
+whoami: Prints the current logged-in username.
+uptime: Shows how long the system has been running.
+sudo <command>: Executes a command with administrative privileges.
+reboot: Restarts the system.
+shutdown now: Shuts down the system immediately.
