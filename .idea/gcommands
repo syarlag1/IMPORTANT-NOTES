@@ -1,0 +1,46 @@
+git clone-to clone a branch
+git add . - to add all files
+git commit -m ""- to commit the file and type the commit message
+git commit --amend: Modify the most recent commit (add changes or change the commit message).
+git push: Push local commits to the remote repository.
+git checkout branchname - to change the branch
+git checkout -b branchname - to create a new branch and checkout to that branch
+git checkout -d branchname - to delete a branch
+git pull- fetch and merge changes from the remote repository in to your current branch
+git fetch: Fetch changes from the remote without merging them into your branch.
+git rebase -i HEAD~N : it will open the commit history and we can modify the commit history
+git status : to check the status of branch
+git branch : to check the branches
+git log : to show the commit history
+
+git remote -v: List all remote repositories linked to your project.
+git remote add <name> <url>: Add a new remote repository (e.g., origin, upstream).
+git remote remove <name>: Remove a remote repository.
+git push <remote> <branch>: Push changes to the specified remote and branch.
+git pull <remote> <branch>: Pull changes from the specified remote and branch.
+git fetch <remote>: Fetch all branches and updates from the remote.
+git remote show <name>: Show detailed information about a remote repository.
+git log: Show the commit history.
+git log --oneline: Show the commit history in a simplified format with one commit per line.
+git diff: Show changes that are not yet staged.
+git diff <file>: Show changes in a specific file.
+git diff --staged: Show changes that have been staged but not yet committed.
+git show <commit>: Show detailed information about a specific commit.
+git blame <file>: Show who last modified each line of a file.
+git rebase <branch>: Rebase your current branch onto another branch.
+git rebase --abort: Abort an in-progress rebase.
+git rebase --continue: Continue after resolving conflicts during a rebase.
+git rebase -i <commit>: Start an interactive rebase, allowing you to squash or reorder commits.
+git stash: Stash any changes (temporarily save them) that are not yet committed.
+git stash pop: Apply the most recent stash and remove it from the stash list.
+git stash apply: Apply the most recent stash without removing it from the stash list.
+git stash list: List all stashes.
+git stash drop: Remove a specific stash.
+git remote add upstream <url>: Add an upstream remote repository if you forked the repository.
+git fetch upstream: Fetch the latest changes from the upstream repository.
+git merge upstream/main: Merge the latest changes from the upstream main branch into your current branch.
+git pull upstream main: Pull changes directly from upstream into your current branch.
+git reset <file>: Unstage a file that was added with git add.
+git reset --hard: Reset your working directory and staging area to the last commit (be careful as this will discard local changes).
+git checkout -- <file>: Discard changes in a file in your working directory (revert to the last commit).
+git revert <commit>: Create a new commit that undoes the changes made by a previous commit.
