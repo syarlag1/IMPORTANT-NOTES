@@ -12,7 +12,8 @@ git rebase -i HEAD~N : it will open the commit history and we can modify the com
 git status : to check the status of branch
 git branch : to check the branches
 git log : to show the commit history
-
+git push origin --delete <feature-branch>
+git log --oneline
 git remote -v: List all remote repositories linked to your project.
 git remote add <name> <url>: Add a new remote repository (e.g., origin, upstream).
 git remote remove <name>: Remove a remote repository.
