@@ -44,3 +44,20 @@ git reset <file>: Unstage a file that was added with git add.
 git reset --hard: Reset your working directory and staging area to the last commit (be careful as this will discard local changes).
 git checkout -- <file>: Discard changes in a file in your working directory (revert to the last commit).
 git revert <commit>: Create a new commit that undoes the changes made by a previous commit.
+
+
+
+
+steps to resolve merge conflicts
+1. sync origin master with upstream master in github.
+2. git branch
+3. git checkout master
+4. git pull origin master
+5. git checkout <feature branch>
+6. git rebase master
+7. select the file with the conflicts in intellij
+8. select the git and select resolve conflicts
+9. resolve the conflicts in the file
+10. git add .
+11. git commit -m "message"
+12. git push origin <branchname> --force
