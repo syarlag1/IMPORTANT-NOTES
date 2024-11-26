@@ -1,0 +1,17 @@
+Differences b/w relational and non-relational database
+examples for relational and non-relational database
+advantages and disadvantages of relational database
+diff b/w database,schema,table
+how to create sql database
+how to create sql table
+how to delete sql database
+how to delete sql table
+how to drop sql database
+how to drop sql table
+how to truncate sql database
+how to truncate sql table
+diff b/w delete,drop,truncate
+how to add records to table
+how to delete records to table
+how to update records to table
+how to view records in table
