@@ -1,0 +1,26 @@
+CREATE DATABASE ingest_v2;
+SHOW DATABASES;
+USE DATABASENAME;
+SELECT DATABASE();
+
+
+
+
+1.students(id,firstname,lastname,department)
+2.Teachers(id,firstname,lastname,department)
+3.Departments(id,branch)
+
+
+CREATE TABLE students(
+   id NOT NULL,
+   first_name NOT NULL,
+   last_name NOT NULL,
+   department NOT NULL,
+   );
+
+
+
+
+  DATA TYPES
+  DATABASE CREATION
+  TABLE CREATION
