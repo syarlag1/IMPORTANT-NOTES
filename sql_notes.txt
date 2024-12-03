@@ -3,6 +3,28 @@ examples for relational and non-relational database
 advantages and disadvantages of relational database
 diff b/w database,schema,table
 how to create sql database
+CREATE TABLE Company(
+id INT,
+NAME VARCHAR(50),
+ADDRESS VARCHAR(250),
+ZIPCODE INT NOT NULL,
+STATE VARCHAR(250) NOT NULL,
+PHONE_NUMBER INT NOT NULL
+);
+
+
+ALTER TABLE Company
+MODIFY PHONE_NUMBER BIGINT;
+
+
+INSERT INTO Company
+VALUES
+(5,'BNY MELLON','106f azalea park lane',36117,'Newyork',3133299298),
+(6,'CAPITAL ONE','107f azalea park lane',36118,'Newyork',3133299299),
+(7,'COMCAST','108f azalea park lane',36119,'Newyork',313329929);
+
+
+ALTER VS UPDATE
 how to create sql table
 how to delete sql database
 how to delete sql table
@@ -15,3 +37,5 @@ how to add records to table
 how to delete records to table
 how to update records to table
 how to view records in table
+
+
