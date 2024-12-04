@@ -10,6 +10,20 @@ how to truncate sql database
 The TRUNCATE command is only used to remove all rows from tables within a database,
 not the database itself.)
 
+What are all the sublanguages in sql and list the keywords of each one of them
+DISTINCT
+ORDER BY
+IN
+AND,OR,NOT operators
+IS NULL, IS NOT NULL
+LIMIT
+MIN,MAX
+count,avg,sum
+BETWEEN
+OPERATORS(+,-,*,%,/)
+
+
+
 how to create sql database
 CREATE TABLE Company(
 id INT,
@@ -77,4 +91,5 @@ DELETE FROM company WHERE ID IN (8,9,10);
 ALTER TABLE company MODIFY PHONE_NUMBER VARCHAR(10);
 
 UPDATE company SET PHONE_NUMBER ='3133299298' WHERE ID IN (1,2,3);
+
 
