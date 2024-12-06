@@ -24,8 +24,6 @@ OPERATORS(+,-,*,%,/)
 
 
 
-
-
 how to create sql database
 CREATE TABLE Company(
 id INT,
