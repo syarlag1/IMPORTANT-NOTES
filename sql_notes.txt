@@ -11,16 +11,18 @@ The TRUNCATE command is only used to remove all rows from tables within a databa
 not the database itself.)
 
 What are all the sublanguages in sql and list the keywords of each one of them
-DISTINCT
+DISTINCT.
 ORDER BY
 IN
 AND,OR,NOT operators
-IS NULL, IS NOT NULL
+IS NULL, IS NOT NULL.
 LIMIT
 MIN,MAX
 count,avg,sum
 BETWEEN
 OPERATORS(+,-,*,%,/)
+
+
 
 
 
@@ -91,5 +93,45 @@ DELETE FROM company WHERE ID IN (8,9,10);
 ALTER TABLE company MODIFY PHONE_NUMBER VARCHAR(10);
 
 UPDATE company SET PHONE_NUMBER ='3133299298' WHERE ID IN (1,2,3);
+
+SELECT REGISTRATION_NUMBER
+FROM company
+WHERE REGISTRATION_NUMBER IN ('78893HBDBMS', '78993HBDBMS');
+
+ select * from company
+     where ZIPCODE ='36189' OR ZIPCODE ='36187';
+
+     select * from company
+          where NOT ZIPCODE ='36189';
+
+          select * from company
+                    where ZIPCODE LIMIT 2;
+
+
+
+SELECT TO MIN AND MAX
+
+INSERT INTO CLASS (ID, NAME, LASTNAME, ADDRESS, ZIPCODE, PHONE_NUMBER)
+VALUES (4, 'VENKATESWARA RAO','YARLAGADDA', NULL, 36117, '3133299294');
+
+
+question:
+update a record which has address starting with 106
+
+UPDATE tablename SET columnname = 'value' WHERE condition1 = value1;
+
+UPDATE company SET STATE = 'ALABAMA'  WHERE ADDRESS LIKE '106%';
+
+SELECT * from tablename;
+SELECT COLUMN1,COLUMN2 from TABLENAME;
+
+SELECT * from company  WHERE ID IS MAX;
+
+ SELECT MAX(ID) from company;
+
+SELECT * FROM company WHERE ID = (SELECT MAX(ID) FROM company);
+
+SELECT ID from company BETWEEN '98' AND '101';
+
 
 
