@@ -133,5 +133,29 @@ SELECT * FROM company WHERE ID = (SELECT MAX(ID) FROM company);
 
 SELECT ID from company BETWEEN '98' AND '101';
 
+ALTER TABLE family MODIFY NAME =FIRST_NAME;
 
 
+
+SELECT ID from company LIMIT 10
+
+9,99,199
+DELETE from company WHERE ID IN(9,99,199);
+
+5,55,155
+DELETE from company WHERE ID LIKE (5%);
+
+
+like
+wildcards
+aliases
+group by
+having
+union
+union all
+EXISTS
+ANY,ALL
+case
+INSERT SELECT
+NULL FUNCTIONS
+OPERATORS
