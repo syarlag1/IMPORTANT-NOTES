@@ -39,3 +39,6 @@ uptime: Shows how long the system has been running.
 sudo <command>: Executes a command with administrative privileges.
 reboot: Restarts the system.
 shutdown now: Shuts down the system immediately.
+
+
+
