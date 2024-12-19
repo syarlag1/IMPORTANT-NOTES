@@ -17,6 +17,7 @@ git blame
 how do you discard staged changes
 what is git revert
 git merge vs git rebase
+git restore filename vs git restore --staged filename
 
 
 sql vs no sql
