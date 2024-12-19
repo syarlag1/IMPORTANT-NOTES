@@ -45,6 +45,7 @@ git reset <file>: Unstage a file that was added with git add.
 git reset --hard: Reset your working directory and staging area to the last commit (be careful as this will discard local changes).
 git checkout -- <file>: Discard changes in a file in your working directory (revert to the last commit).
 git revert <commit>: Create a new commit that undoes the changes made by a previous commit.
+git restore --staged <filename>:To discard a file from staging area.
 
 
 
