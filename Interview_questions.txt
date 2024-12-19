@@ -1,0 +1,33 @@
+fetch vs pull
+git vs github
+clone vs init
+how do you resolve merge conflicts
+squash vs fixup
+cherrypick
+upstream vs origin
+how do you add upstream and origin of a repo locally
+command to check upstream&origin
+how to stash changes in git and purpose of stash
+how do you check commit history
+purpose of git rebase
+git lifecycle
+how do you add files to staging area
+pull vs push
+git blame
+how do you discard staged changes
+what is git revert
+git merge vs git rebase
+
+
+sql vs no sql
+examples of sql and no sql databases
+delete vs drop vs truncate
+char vs varchar
+primary key vs foreign key vs composite key
+types of joins and significance of each one of them
+union vs union all
+where vs having
+HOW TO find the highest second salary of employe;
+what is a subquery or nested query
+different datatypes in sql
+SELECT INTO
