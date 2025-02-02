@@ -1,0 +1,183 @@
+SELECT SYNTAX
+==============
+SELECT COLOUMN_NAME from TABLE_NAME WHERE CONDITION;
+
+UPDATE SYNTAX
+==================
+UPDATE TABLE_NAME SET COLUMN1=VALUE1,COLUMN2=VALUE2 WHERE Condition;
+
+INSERT INTO SYNTAX
+===================
+INSERT INTO TABLE_NAME(COLUMN1,COLUMN2)
+VALUES(VALUE1,VALUE2);
+
+DELETE SYNTAX
+==================
+DELETE FROM TABLE_NAME WHERE CONDITION;
+
+ALTER SYNTAX
+============
+ALTER TABLE TABLE_NAME ADD COLUMN_NAME DATA TYPE;
+
+DROP SYNTAX FOR TABLE
+=====================
+DROP TABLE table_name;
+
+DROP SYNTAX FOR DATABASE
+=========================
+DROP DATABASE DATABASE_NAME;
+
+CREATE SYNTAX FOR DATABASE
+===========================
+CREATE DATABASE DATABASE_NAME;
+
+CREATE SYNTAX FOR TABLE
+===========================
+CREATE TABLE TABLE_NAME(
+COLUMN1 DATATYPE,
+COLUMN2 DATATYPE,
+COLUMN3 DATATYPE,
+);
+
+AND SYNTAX
+============
+SELECT COLUMN1,COLUMN2 from Table_name WHERE CONDITION1 AND CONDITION2;
+
+OR SYNTAX
+=============
+SELECT COLUMN1,COLUMN2 from Table_name WHERE CONDITION1 OR CONDITION2;
+
+NOT SYNTAX
+============
+SELECT COLUMN1,COLUMN2 from TABLE_NAME WHERE NOT CONDITION1;
+
+ORDER BY SYNTAX
+================
+SELECT COLUMN1,COLUMN2 FROM TABLE_NAME ORDER BY COLUMN1,COLUMN2;
+
+
+IS NULL SYNTAX
+===================
+SELECT COLUMN_NAME FROM TABLE_NAME WHERE COLUMN_NAME IS NULL;
+
+IS NOT NULL SYNTAX
+=====================
+SELECT COLUMN_NAME FROM TABLE_NAME WHERE COLUMN_NAME IS NOT NULL;
+
+LIMIT SYNTAX
+=================
+SELECT COLUMN_NAME FROM TABLE_NAME WHERE CONDITION LIMIT NUMBER;
+
+MIN SYNTAX
+================
+SELECT MIN(COLUMN_NAME) from table_name WHERE condition;
+
+MAX SYNTAX
+=========================
+SELECT MAX(COLUMN_NAME) from table_name WHERE condition;
+
+COUNT SYNTAX
+=======================
+SELECT COUNT(COLUMN_NAME) from table_name WHERE condition;
+
+AVG SYNTAX
+=========================
+SELECT AVG(COLUMN_NAME) from table_name WHERE condition;
+
+SUM SYNTAX
+======================
+SELECT SUM(COLUMN_NAME) from table_name WHERE condition;
+
+LIKE SYNTAX
+=====================
+SELECT COLUMN1,COLUMN2 from table_name WHERE COLUMN LIKE 'A%';
+
+IN SYNTAX
+====================
+SELECT column_name from table_name WHERE column_name IN(VALUE1,VALUE2);
+
+BETWEEN SYNTAX
+================
+SELECT COLUMN_NAME FROM TABLE_NAME WHERE COLUMN_NAME BETWEEN VALUE1 and VALUE2;
+
+ALIASES SYNTAX FOR COLUMN
+============================================
+SELECT column_name AS alias_name FROM table_name
+
+ALIASES SYNTAX FOR TABLE
+=================================================
+SELECT column_name FROM table_name AS alias_name
+
+INNER JOIN SYNTAX
+===========================
+SELECT column_name from table1 INNER JOIN table2 ON table1.column_name =table2.column_name;
+
+LEFT JOIN SYNTAX
+==========================================
+SELECT column_name from table1 LEFT JOIN table2 ON table1.column_name =table2.column_name;
+
+RIGHT JOIN SYNTAX
+==========================================
+SELECT column_name from table1 RIGHT JOIN table2 ON table1.column_name =table2.column_name;
+
+CROSS JOIN SYNTAX
+=====================================
+SELECT COLUMN_NAME from table1 CROSS JOIN table2;
+
+SELF JOIN SYNTAX
+============================================
+SELECT COLUMN_NAME FROM TABLE T1,TABLE T2 WHERE CONDITION;
+
+UNION SYNTAX
+===========================
+SELECT COLUMN_NAME FROM TABLE T1 UNION SELECT COLUMN_NAME FROM TABLE2;
+
+GROUP BY SYNTAX
+=================================================
+SELECT column_name FROM table_name WHERE condition GROUP BY column_name ORDER BY column_name;
+
+HAVING SYNTAX
+=======================================
+SELECT column_name FROM table_name WHERE condition GROUP BY column_name HAVING condition ORDER BY column_name;
+
+EXISTS SYNTAX
+===================================================================================================
+SELECT column_name FROM table_name WHERE EXISTS (SELECT column_name FROM table_name WHERE condition);
+
+ANY SYNTAX
+========================================
+SELECT column_name FROM table_name WHERE column_name operator ANY(SELECT column_nameFROM table_name WHERE condition);
+
+INSERT INTO SYNTAX
+============================================================
+INSERT INTO table2 SELECT * FROM table1 WHERE condition;
+
+CASE SYNTAX
+==============================================================
+SELECT column1,
+       CASE column2
+           WHEN value1 THEN result1
+           WHEN value2 THEN result2
+           ELSE result3
+       END AS alias_name
+FROM table_name;
+
+
+COMMENTS SYNTAX
+============================
+-- Select all:
+SELECT * FROM Customers;
+
+MULTI LINE COMMENTS SYNTAX
+======================================
+/*
+  This is a multi-line comment.
+  It can span across several lines.
+  SQL ignores everything in this block.
+*/
+SELECT * FROM table_name;
+
+
+
+
+

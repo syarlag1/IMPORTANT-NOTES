@@ -1,0 +1,79 @@
+# File Management
+ls                      # List files and directories
+ls -l                   # Long listing format
+ls -a                   # Show hidden files
+cat filename            # View the content of a file
+tac filename            # View file content in reverse order
+touch filename          # Create an empty file
+cp source dest          # Copy a file or directory
+mv source dest          # Move or rename a file/directory
+rm filename             # Delete a file
+rm -r directory         # Delete a directory recursively
+
+# Directory Management
+mkdir directory_name    # Create a new directory
+mkdir -p dir/subdir     # Create directory and parent directories
+rmdir directory_name    # Remove an empty directory
+cd directory_name       # Change directory
+cd ..                   # Move to the parent directory
+cd ~                    # to go to home directory
+cd -                    # to go to previous directory
+pwd                     # Print working directory
+
+# File Viewing
+head filename           # View the first 10 lines of a file
+head -n 5 filename      # View the first 5 lines of a file
+tail filename           # View the last 10 lines of a file
+tail -n 5 filename      # View the last 5 lines of a file
+more filename           # View file content with pagination
+less filename           # View file content with backward/forward navigation
+
+# File Permissions
+chmod 755 filename      # Change permissions (read/write/execute for owner)
+ls -l                   # View file permissions
+chown user:group file   # Change ownership of a file
+
+# Searching
+find /path -name "file" # Search for files/directories
+grep "pattern" file     # Search for a pattern in a file
+grep -r "pattern" dir   # Search recursively in a directory
+
+# Disk Usage
+df -h                   # Show filesystem disk space usage
+du -sh directory        # Show the size of a single directory
+du -ah directory        # Show the size of all files and directories
+
+# Process Management
+ps                      # Display currently running processes
+top                     # Display real-time process information
+kill PID                # Terminate a process by PID
+killall process_name    # Terminate a process by name
+
+# Networking
+ping hostname                   # Test network connectivity
+curl url                        # Fetch the content of a URL
+wget url                        # Download files from a URL
+
+# System Information
+hostname                        # Show the hostname
+whoami                          # Show current user
+date                            # Show the current date and time
+uptime                          # Show system uptime
+free -h                         # Display memory usage
+
+# Text Processing
+echo "text"                     # Print text to the terminal
+cat file | sort                 # Sort the contents of a file
+cat file | uniq                 # Remove duplicate lines
+
+# Others
+man command                     # Display manual for a command
+history                         # Show command history
+clear                           # Clear the terminal screen
+
+# Archiving and Compression
+tar -cvf archive.tar dir        # Create a tar archive
+tar -xvf archive.tar            # Extract a tar archive
+zip file.zip files              # Create a zip archive
+unzip file.zip                  # Extract a zip archive
+

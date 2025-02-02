@@ -1,0 +1,88 @@
+What is Git, and why is it used?
+Explain the difference between Git and GitHub.
+What is a repository in Git? How do you create a repository?
+What is the difference between git init and git clone?
+Explain the Git workflow.
+How do you check the status of a repository?
+How do you stage and commit changes in Git?
+What is the purpose of the .gitignore file? How is it used?
+Explain the difference between git pull and git fetch.
+How can you view the commit history of a repository?
+
+
+
+You cloned a repository and made changes, but the repository was updated in the meantime. How do you synchronize your changes with the updated repository?
+You accidentally committed a file to the wrong branch. How do you move it to the correct branch?
+What steps do you take to contribute to an open-source project using Git?
+A team member force-pushed to the repository, and your local branch is now out of sync. How do you fix this?
+How would you debug a broken pipeline due to a Git commit?
+
+
+
+
+### Basic Git Concepts
+1. What is the purpose of the `git config` command?
+2. What is the difference between the `master` and `main` branch in Git?
+3. What is a commit hash in Git, and how is it used?
+4. What is the Git staging area, and what role does it play in version control?
+5. What is the `git blame` command, and when would you use it?
+6. Explain how you can rename a branch in Git.
+7. What is the difference between `git pull --rebase` and `git pull`?
+8. What is the function of the `git diff` command?
+9. How do you view all the branches in a repository?
+10. Explain the difference between a fast-forward merge and a no-fast-forward merge.
+
+### Branching & Merging
+1. What is a "merge conflict," and how do you resolve it?
+2. How do you create and delete branches in Git?
+3. How do you push a local branch to a remote repository?
+4. How do you merge two branches in Git?
+5. What is a "rebase" operation in Git, and how does it differ from merging?
+6. Can you explain the Git workflow with pull requests?
+7. What are the potential problems of rebasing shared branches?
+8. What does the `git merge --no-ff` option do, and when would you use it?
+9. How can you delete a local branch that has already been merged into `main`?
+10. What is the significance of the `git branch -d` vs. `git branch -D` command?
+
+### Git Internals and Advanced Features
+1. Explain how `git rebase` works internally and what happens to the commit history.
+2. What is the purpose of the `git reflog`? How does it help recover lost commits?
+3. What is the difference between a shallow clone (`git clone --depth 1`) and a full clone?
+4. What is the role of `git merge-base`?
+5. What is the purpose of the `.gitmodules` file?
+6. What is the purpose of the `git bisect` command, and how is it used to find bugs?
+7. What is the role of the `git gc` (garbage collection) command?
+8. How does Git handle large binary files, and what are the options for managing them?
+9. What is a Git hook, and how do you configure one for a repository?
+10. How do you create a Git alias for a commonly used command?
+
+### Remote Repositories and Collaboration
+1. What is the purpose of the `git remote` command?
+2. How do you add a new remote to a Git repository?
+3. How do you change the URL of a Git remote?
+4. How do you fetch changes from a remote repository without merging them?
+5. What does `git fetch` do, and how is it different from `git pull`?
+6. Explain the concept of "forking" a repository. How does it differ from cloning?
+7. What is a Git submodule, and how do you work with it?
+8. What is the difference between `git push` and `git push --force`?
+9. Explain how to set up SSH keys for authentication with a Git remote repository.
+10. What is a "pull request," and how do you handle it in a Git workflow?
+
+### Troubleshooting & Common Issues
+1. How do you revert a commit that has already been pushed to a remote repository?
+2. You accidentally deleted a file and committed the change. How do you recover the file?
+3. How can you see the differences between two commits?
+4. What do you do when your local repository is behind the remote repository, but you have local changes?
+5. How do you resolve a "detached HEAD" state in Git?
+6. What should you do if your Git history contains a sensitive piece of information (e.g., a password)?
+7. How can you reset your repository to a previous state without losing changes?
+8. How do you solve the "Merge Conflict" problem, especially when working in a large team?
+9. What steps would you take to troubleshoot a Git push failure?
+10. What is the difference between `git reset` and `git checkout` in terms of discarding changes?
+
+### Scenario-Based Git Questions
+1. You cloned a repository, made some changes, but forgot to pull the latest changes from the remote repository. Now, when you push, you receive an error. How do you handle this?
+2. How would you go about resolving a conflict that occurs when multiple developers have made changes to the same line of code in a file?
+3. If you want to add a new feature to a project, but you don't want to disrupt the ongoing development work in the `main` branch, how would you approach it in Git?
+4. You have two branches: `feature-A` and `feature-B`. `Feature-A` depends on some changes in `feature-B`. How would you get `feature-A` up-to-date with the latest changes in `feature-B`?
+5. You accidentally committed to the wrong branch. How do you move your commit to the correct branch without losing changes?

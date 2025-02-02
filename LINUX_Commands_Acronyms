@@ -1,0 +1,45 @@
+s -a: List all files, including hidden files (files starting with .).
+ls -l: List files in long format (detailed information like permissions, owner, size, etc.).
+ls -al: Combine -a and -l to list all files, including hidden ones, in long format.
+ls -h: Show file sizes in human-readable format (e.g., KB, MB).
+ls -R: List contents of the directory and all its subdirectories recursively.
+ls -t: Sort files by modification time (most recent first).
+ls -S: Sort files by size (largest first).
+ls -r: Reverse the order of the output.
+ls -d: List only directories (without their contents).
+ls -1: List one file per line.
+ls -i: Display the inode number for each file.
+ls -ltr
+This command lists files and directories in the current directory:
+In long format (detailed view).
+Sorted by modification time (oldest first, newest last).
+Reversed (so that the oldest files are displayed at the top).
+rm -rf directory: Forcefully and recursively remove a directory and its contents without confirmation.
+rm filename: Remove a file.
+ls: List (contents of a directory)
+cd: Change Directory
+pwd: Print Working Directory
+mkdir: Make Directory
+rmdir: Remove Directory
+cp: Copy
+mv: Move
+rm: Remove
+cat filename.txt :to read a file
+cat > filename.txt : to create a file
+mv [old_filename] [new_filename]: to rename a file
+clear: Clear terminal screen
+whoami: Who Am I (current user)
+id: Display user ID and group information
+uptime:show how long the system has been running
+
+df -h (Disk Free)
+======================
+Purpose: Shows information about the total, used, and available disk space on mounted filesystems.
+Scope: Operates at the filesystem level.
+
+du -h (Disk Usage)
+=========================
+Purpose: Shows the disk space used by files and directories.
+Scope: Operates at the file and directory level.
+
+
